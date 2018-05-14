@@ -1,0 +1,101 @@
+/*
+ * Azul da prússia - #00528C, #00416F, #003153, #001E33, #000306
+ * Fonte - https://pt.wikipedia.org/wiki/Azul_da_pr%C3%BAssia, http://paletton.com/
+ */
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+
+/*html {
+    font-size: 16px
+}*/
+
+body {
+    background-color: #eee;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+a,
+a:visited {
+    color: #003153;
+    text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #00416F;
+}
+
+.container {
+    background-color: #fff
+}
+
+/* http://stackoverflow.com/q/10659070 */
+
+.btn-primary {
+    background-color: #003153;
+    border-color: #001E33;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #00416F;
+    border-color: #003153;
+}
+
+/* http://stackoverflow.com/a/38576591 */
+
+.dropdown-toggle::after {
+    display:none
+}
+
+/* */
+
+.d-table {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.d-table > * {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.s-header {
+    height: 56px;
+}
+
+/*.s-header *:nth-child(1) a {
+    margin-right: 1em;
+}
+
+.s-header *:nth-child(3) a {
+    margin-left: 1em;
+}*/
+
+.s-jumbotron {
+    background: #fff;
+    color: #003153;
+    height: 360px;
+}
+
+/*.s-jumbotron > * {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}*/
+
+.s-footer {
+    font-size: .8em;
+    padding-bottom: 1em;
+}
+
+@media (min-width: 768px) {
+    .s-header {
+        height: 128px;
+    }
+}
